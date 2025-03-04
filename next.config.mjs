@@ -6,10 +6,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "qzjofxqvjqinbnnpqiad.supabase.co",
         port: "",
-        pathname: "/storage/v1/object/public/cabin-images**",
+        pathname: "/storage/v1/object/public/cabin-images/**",
       },
     ],
   },
+  // output: "export",
 };
 
 export default nextConfig;
